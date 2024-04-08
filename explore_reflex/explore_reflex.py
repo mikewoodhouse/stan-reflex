@@ -1,11 +1,11 @@
 """Welcome to Reflex!."""
 
+import reflex as rx
+
 from explore_reflex import styles
 
 # Import all the pages.
 from explore_reflex.pages import *
-
-import reflex as rx
 
 
 class State(rx.State):
