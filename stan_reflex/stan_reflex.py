@@ -2,10 +2,10 @@
 
 import reflex as rx
 
-from explore_reflex import styles
+from stan_reflex import styles
 
 # Import all the pages.
-from explore_reflex.pages import *
+from stan_reflex.pages import *
 
 
 class State(rx.State):

@@ -3,7 +3,7 @@
 import reflex as rx
 from reflex.style import Style
 
-from explore_reflex import styles
+from stan_reflex import styles
 
 
 def sidebar_header() -> rx.Component:

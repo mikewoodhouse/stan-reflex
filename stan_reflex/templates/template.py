@@ -2,11 +2,12 @@
 
 from __future__ import annotations
 
-from explore_reflex import styles
-from explore_reflex.components.sidebar import sidebar
 from typing import Callable
 
 import reflex as rx
+
+from stan_reflex import styles
+from stan_reflex.components.sidebar import sidebar
 
 # Meta tags for the app.
 default_meta = [

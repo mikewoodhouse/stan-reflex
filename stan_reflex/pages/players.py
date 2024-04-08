@@ -5,9 +5,9 @@ from pathlib import Path
 import reflex as rx
 from icecream import ic
 
-from explore_reflex.entities import Player
-from explore_reflex.repos import PlayerRepository
-from explore_reflex.templates import template
+from stan_reflex.entities import Player
+from stan_reflex.repos import PlayerRepository
+from stan_reflex.templates import template
 
 
 class PlayerNameSearch(rx.State):

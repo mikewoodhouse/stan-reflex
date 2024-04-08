@@ -1,9 +1,9 @@
 """The home page of the app."""
 
-from explore_reflex import styles
-from explore_reflex.templates import template
-
 import reflex as rx
+
+from stan_reflex import styles
+from stan_reflex.templates import template
 
 
 @template(route="/", title="Home", image="/github.svg")

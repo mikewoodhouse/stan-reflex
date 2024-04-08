@@ -2,7 +2,7 @@ import sqlite3
 
 from icecream import ic
 
-from explore_reflex.entities.player import Player
+from stan_reflex.entities.player import Player
 
 
 class PlayerRepository:
